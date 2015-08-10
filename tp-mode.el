@@ -24,7 +24,7 @@
 ;;
 ;; init.el:
 ;; (require 'tp-mode)
-;; (tp-mode <Transparent alpha>)
+;; (tp-mode <alpha>)
 ;; 
 ;; Toggle:
 ;; M-x tp-mode
@@ -35,13 +35,13 @@
 
 
 (defcustom tp-mode nil
-  "tp-mode")
+  "Default is off")
 (defcustom tp-mode-alpha 90
   "alpha value")
 
 (unless (assq 'tp-mode minor-mode-alist)
   (setq minor-mode-alist
-        (cons '(tp-mode "Transparent")
+        (cons '(tp-mode "")
               minor-mode-alist)))
 
 (defun tp-mode (&optional arg)
