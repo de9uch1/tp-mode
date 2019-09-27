@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2015 Hiroyuki Deguchi
 
-;; Author: Hiroyuki Deguchi <lambda@dg-che.net>
-;; URL: https://github.com/dg-che/tp-mode
+;; Author: Hiroyuki Deguchi <deguchi@ai.cs.ehime-u.ac.jp>
+;; URL: https://github.com/de9uch1/tp-mode
 ;; Version: 0.1
 ;; License: GPL-3
 
